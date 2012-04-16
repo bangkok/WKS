@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.wrapper {
+	position:relative;
+	float:none;
+	vertical-align:top;
+}
+*html div.wrapper{
+		font-size:1px;
+	line-height:1px;
+}
+p div.wrapper{
+	margin:10px 0;
+}
+
+div.wrapper img{	
+	float:none;
+	border:none;
+}
+div.wrapper div{	
+	position:absolute;
+	height:6px;
+	width:6px;
+}
+* html div.wrapper div{	
+	font-size:1px;
+	line-height:1px;
+}
+div.wrapper div.tl{	
+	background:url(/img/roundedcorners/tl.png) top left no-repeat;
+	top:0;
+	left:0;
+}
+*html div.wrapper div.tl{	
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/roundedcorners/tl.png', sizingMethod='');
+	background:none;
+}
+
+div.wrapper div.tr{	
+	background:url(/img/roundedcorners/tr.png) top right no-repeat;
+	top:0;
+	right:0;
+}
+*html div.wrapper div.tr{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/roundedcorners/tr.png', sizingMethod='');
+	background:none;
+}
+div.wrapper div.bl{	
+	background:url(/img/roundedcorners/bl.png) bottom left no-repeat;
+	bottom:0;
+	left:0;
+}
+*html div.wrapper div.bl{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/roundedcorners/bl.png', sizingMethod='');
+	background:none;
+}
+
+div.wrapper div.br{	
+	background:url(/img/roundedcorners/br.png) bottom right no-repeat;
+	bottom:0;
+	right:0;
+}
+*html div.wrapper div.br{	
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/roundedcorners/br.png', sizingMethod='');
+	background:none;
+}
+
+/*Ausschluss*/
+
+/*Keine Rundung*/
+.box div.wrapper div.bl,
+.box div.wrapper div.br,
+.box_h div.wrapper div.bl,
+.box_h div.wrapper div.br{
+	display:none;
+}
+.big div.wrapper div.tl,
+.big div.wrapper div.tr,
+.small div.wrapper div.tl,
+.small div.wrapper div.tr,
+.light div.wrapper div.tl,
+.light div.wrapper div.tr{
+	display:none;
+}
+
+#map div.wrapper div.tl,
+#map div.wrapper div.tr,
+#map div.wrapper div.bl,
+#map div.wrapper div.br{
+	display:none;
+}
+#map div.wrapper{
+	float:none;
+}

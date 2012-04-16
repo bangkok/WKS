@@ -1,0 +1,34 @@
+#main{
+MIN-WIDTH:1260px;
+}
+#right-image{
+	display:none;
+}
+#header_content
+{
+	display:none;
+}
+a img{
+border:none;
+BACKGROUND-COLOR: none;
+padding: 3px;
+}
+
+a.catalog_link img{
+
+BACKGROUND: url(/img/wks/svet1.png) ;
+BACKGROUND-REPEAT: no-repeat;
+
+BACKGROUND-POSITION: 3px 3px;
+border:0px solid;
+/*BACKGROUND-COLOR: #e9f2c9;*/
+}
+a:hover.catalog_link img{
+
+BACKGROUND: url(/img/wks/svet2.png) ;
+BACKGROUND-REPEAT: no-repeat;
+BACKGROUND-POSITION: 2px 2px;
+/*BACKGROUND-COLOR: #e9f2c9;*/
+/*BACKGROUND-COLOR: #A9e289;*/
+}
+

@@ -1,0 +1,303 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000; PADDING-TOP: 0px; LEFT: 0px; BACKGROUND-IMAGE: url(/img/fon_lines_right.jpg); BACKGROUND-REPEAT: no-repeat;BACKGROUND-POSITION: 100% 0;
+}
+#head_line {
+	POSITION: absolute; MIN-WIDTH: 1066px; WIDTH: 100%; HEIGHT: 20px; TOP: 52px
+}
+#head_line_in {
+	LINE-HEIGHT: 16px; MARGIN: 1px 0px; WIDTH: 100%; HEIGHT: 16px; FONT-SIZE: 10px
+}
+#logo {
+	BACKGROUND-IMAGE: url(/img/wks_logo.jpg); POSITION: absolute; MIN-WIDTH: 1066px; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 10% 0%; HEIGHT: 145px; TOP: 0px
+}
+#logo2 {
+	BACKGROUND-IMAGE: url(-/img/logo2.png); MIN-WIDTH: 1066px; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 50% 50%; HEIGHT: 145px
+}
+#menu_head {
+	POSITION: absolute; MIN-WIDTH: 1066px; WIDTH: 100%; TOP: 113px
+}
+.cont {
+	MARGIN: 0px auto; WIDTH: 1066px
+}
+#menu_foot {/*полоса меню в центре*/
+	POSITION: absolute; MIN-WIDTH: 1066px; WIDTH: 100%; HEIGHT: 45px; TOP: 525px; LEFT: 0px
+}
+#menu_foot_in {
+	/*BACKGROUND-COLOR: #3a2d25;*/ MARGIN-TOP: 3px; MARGIN-BOTTOM: 3px; HEIGHT: 44px; /*BORDER-TOP: #aeb1b5 5px solid*/
+}
+#l {
+	FONT-SIZE: 10px
+}
+#r {
+	FONT-SIZE: 10px
+}
+#ln {
+	MARGIN: 0px auto; WIDTH: 600px
+}
+#menu_head A {
+	LINE-HEIGHT: 32px; COLOR: #eeeeee; TEXT-DECORATION: none
+}
+#menu_head A:hover {
+	COLOR: #3a2d25
+}
+#head_line_in_l {
+	TEXT-ALIGN: right; MARGIN: 0px 100px 0px 0px; WIDTH: 200px; FLOAT: left
+}
+#head_line_in_r {
+	MARGIN: 0px 0px 0px 100px; WIDTH: 200px; FLOAT: left
+}
+#r {
+	BACKGROUND-IMAGE: url(/img/head-right.png); TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; WIDTH: 265px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FLOAT: right; HEIGHT: 32px; PADDING-TOP: 0px
+}
+#menu {/*полосочка*/
+	BORDER-BOTTOM: #3a2d25 0px solid; POSITION: absolute; MIN-WIDTH: 1066px; WIDTH: 100%; HEIGHT: 379px; BORDER-TOP: #3a2d25 0px solid; TOP: 145px
+}
+.menu_in {
+	/*BACKGROUND-COLOR: #ffffff;*//* MARGIN: 0px auto;*/ WIDTH: 1066px; HEIGHT: 318px
+}
+#menu_elements {/*border:1px #000 solid;*/
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #D0D0D0; MARGIN: 0px 1px 7px -7px; PADDING: 20px 0 0 100px; WIDTH: 300px; FLOAT: left; HEIGHT: 300px;
+}
+.menu_element {
+	PADDING-BOTTOM: 0px; MARGIN: 1px 0px 0px; PADDING-LEFT: 0px; WIDTH: 220px; PADDING-RIGHT: 0px; HEIGHT: 45px; PADDING-TOP: 0px
+}
+#menu .menu_in #menu_elements .menu_element A { border:1px #294a70 solid;
+	LINE-HEIGHT: 42px; /*BACKGROUND-COLOR: #b9e37b;*/ DISPLAY: block; COLOR: #000; TEXT-DECORATION: none
+}
+#menu_flash {
+	/*BACKGROUND-COLOR: #ffffff;*/ MARGIN: 0px 0px 0px 1px; WIDTH: 533px; FLOAT: left; HEIGHT: 317px
+}
+#menu .menu_in #menu_elements .menu_element A:hover {
+	BACKGROUND-COLOR: #3c82bd
+}
+#menu .menu_in #right_text {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 22px; WIDTH: 260px; PADDING-RIGHT: 20px; FLOAT: right; HEIGHT: 310px; COLOR: #363636; FONT-SIZE: 12px; PADDING-TOP: 7px
+}
+#head_content {
+	BORDER-BOTTOM: #aeb1b2 5px solid; POSITION: absolute; MIN-WIDTH: 1066px; BACKGROUND-COLOR: #624b3e; WIDTH: 100%; HEIGHT: 100px; BORDER-TOP: #aeb1b2 5px solid; TOP: 517px
+}
+#content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 635px; 
+}
+#content_in {
+	MARGIN: 0px auto; WIDTH: 1066px
+}
+#content #images {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 10px; WIDTH: 224px; PADDING-RIGHT: 0px; FLOAT: right; PADDING-TOP: 0px
+}
+#content #text {
+	PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 800px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: none; PADDING-TOP: 20px
+}
+#content #text1 {
+	PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-LEFT: 20px; WIDTH: 400px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: none; PADDING-TOP: 20px
+}
+#content #text1 A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+#content #text1 A:hover {
+	COLOR: #f00; TEXT-DECORATION: none
+}
+#content #text1 A IMG {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; COLOR: #000; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; TEXT-DECORATION: none
+}
+#content #text1 A IMG:hover {
+	BORDER-BOTTOM: #f00 1px solid; BORDER-LEFT: #f00 1px solid; COLOR: #f00; BORDER-TOP: #f00 1px solid; BORDER-RIGHT: #f00 1px solid; TEXT-DECORATION: none
+}
+#firma A IMG:hover {
+	BORDER-BOTTOM: #f00 1px solid; BORDER-LEFT: #f00 1px solid; COLOR: #f00; BORDER-TOP: #f00 1px solid; BORDER-RIGHT: #f00 1px solid; TEXT-DECORATION: none
+}
+#content #text_width_all {
+	PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-LEFT: 60px; WIDTH: 730px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: none; PADDING-TOP: 20px
+}
+#content #text_width_all2 {
+	PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-LEFT: 30px; WIDTH: 800px; PADDING-RIGHT: 0px; FLOAT: left; CLEAR: none; PADDING-TOP: 20px
+}
+.img {
+	BORDER-BOTTOM: #ffffff 2px solid; BORDER-LEFT: #ffffff 2px solid; BACKGROUND-COLOR: #333333; MARGIN: 27px 0px 0px; WIDTH: 220px; FLOAT: right; HEIGHT: 170px; BORDER-TOP: #ffffff 2px solid; BORDER-RIGHT: #ffffff 2px solid
+}
+.img:hover {
+	BORDER-BOTTOM: #cccccc 2px solid; BORDER-LEFT: #cccccc 2px solid; BORDER-TOP: #cccccc 2px solid; BORDER-RIGHT: #cccccc 2px solid
+}
+.brik:hover {
+	BORDER-BOTTOM: #ff0000 2px solid; BORDER-LEFT: #ff0000 2px solid; BORDER-TOP: #ff0000 2px solid; BORDER-RIGHT: #ff0000 2px solid
+}
+#footer_head {
+	MIN-WIDTH: 1066px; BACKGROUND-COLOR: #3a2d25; HEIGHT: 8px; CLEAR: both
+}
+#footer_head_news {
+	MIN-WIDTH: 1066px; CLEAR: both
+}
+#footer_head_news_in {
+	MARGIN: 0px auto; WIDTH: 1000px
+}
+.news {
+	PADDING-BOTTOM: 10px; MARGIN: 0px 5px 10px; PADDING-LEFT: 10px; WIDTH: 220px; PADDING-RIGHT: 10px; FLOAT: left; FONT-SIZE: 11px; PADDING-TOP: 30px
+}
+#contact {
+	BACKGROUND-IMAGE: url(/img/email.png); BORDER-BOTTOM: #848f96 1px solid; BORDER-LEFT: #848f96 1px solid; PADDING-BOTTOM: 10px; MARGIN: 10px 0px; PADDING-LEFT: 10px; WIDTH: 220px; PADDING-RIGHT: 10px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 0px; FLOAT: left; HEIGHT: 120px; FONT-SIZE: 12px; BORDER-TOP: #848f96 1px solid; BORDER-RIGHT: #848f96 1px solid; PADDING-TOP: 5px
+}
+#contact:hover {
+	BACKGROUND-POSITION: right -140px
+}
+#contact A {
+	COLOR: #898989; TEXT-DECORATION: none
+}
+#footer {opacity: .1;
+	BORDER-BOTTOM: #bcbdbe 5px solid; MIN-WIDTH: 1066px; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #D0D0D0; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 50px; CLEAR: both; FONT-SIZE: 11px; BORDER-TOP: #bcbdbe 5px solid; PADDING-TOP: 10px;
+}
+.contactText {
+	DISPLAY: block; COLOR: #333; FONT-SIZE: 10px
+}
+.contactT {
+	MARGIN: 5px 0px 0px; DISPLAY: block; COLOR: #666; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.menuC {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 45pt; PADDING-LEFT: 25px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #989a9b; FONT-SIZE: 24px; PADDING-TOP: 0px
+}
+.menuT_R_H {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #666666; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.menuT_R_T {
+	MARGIN: 10px 0px; DISPLAY: block; COLOR: #666666; FONT-SIZE: 10px
+}
+#head_content_menu {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; WIDTH: 180px; PADDING-RIGHT: 0px; FLOAT: left; FONT-SIZE: 11px; PADDING-TOP: 0px
+}
+#head_content_header {
+	TEXT-ALIGN: center; LINE-HEIGHT: 100px; TEXT-INDENT: -120px; MARGIN: 0px 200px; COLOR: #ffffff; FONT-SIZE: 14px
+}
+#head_content #head_content_menu A {
+	LINE-HEIGHT: 20px; DISPLAY: block; COLOR: #ffffff; TEXT-DECORATION: none
+}
+#head_content #head_content_menu A:hover {
+	COLOR: #3a2d25
+}
+#head_content_in {
+	MARGIN: 0px auto; WIDTH: 1066px
+}
+#text P {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text LI {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text UL {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text1 P {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text1 LI {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text1 UL {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text_width_all P {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text_width_all LI {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text_width_all UL {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text_width_all2 P {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text_width_all2 LI {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+#text_width_all2 UL {
+	LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: disc; TEXT-INDENT: 0px; MARGIN: 5px 0px; COLOR: #000
+}
+TD {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.newsHead {
+	MARGIN: 0px 0px 10px; DISPLAY: block; COLOR: #333; FONT-SIZE: 12px
+}
+.newsDate {
+	COLOR: #ffffff; FONT-SIZE: 10px
+}
+.newsText {
+	COLOR: #898989
+}
+.newsText A {
+	COLOR: #bfbebe
+}
+.newsText A:hover {
+	COLOR: #333
+}
+#text A {
+	COLOR: #bfbebe
+}
+#text1 A {
+	COLOR: #bfbebe
+}
+#text_width_all A {
+	COLOR: #bfbebe
+}
+#text_width_all2 A {
+	COLOR: #bfbebe
+}
+#text A:hover {
+	COLOR: #333
+}
+#text1 A:hover {
+	COLOR: #333
+}
+#text_width_all A:hover {
+	COLOR: #333
+}
+#text_width_all2 A:hover {
+	COLOR: #333
+}
+#textbrik A {
+	COLOR: #ffffff
+}
+#text1brik A {
+	COLOR: #ffffff
+}
+#textbrik A:hover {
+	COLOR: #924a16
+}
+#text1brik A:hover {
+	COLOR: #924a16
+}
+#menu_foot_in A {/*текст меню в цнтре*/
+	COLOR: #000; FONT-SIZE: 16px
+}
+#menu_foot_in A:hover {
+	COLOR: #8a6b59; TEXT-DECORATION: none
+}
+#menu_in_center {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 10px auto 0 auto; PADDING-LEFT: 0px; WIDTH: 1066px; PADDING-RIGHT: 0px; COLOR: #fff; PADDING-TOP: 3px
+}
+#actMenu {
+	COLOR: #33ff00
+}
+#text H3 {
+	COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+#text1 H3 {
+	COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+#footer A {
+	LINE-HEIGHT: 50px; COLOR: #898989; TEXT-DECORATION: none
+}
+#footer A:hover {
+	COLOR: #cccccc; TEXT-DECORATION: underline
+}
+.textfield {
+	
+}
+.news_num {
+	MARGIN: 0px 0px 20px; MIN-HEIGHT: 170px
+}
+.news_img {
+	MARGIN: 0px 10px; FLOAT: left; CLEAR: both
+}
+.koagulant_table_zena {
+	FONT-SIZE: 20px; FONT-WEIGHT: bold
+}

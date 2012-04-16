@@ -1,0 +1,258 @@
+BODY {
+	PADDING: 0px; MARGIN: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif;  FONT-SIZE: 14px; color: #555555;  font-weight: normal; 
+}
+a:focus { outline:none }
+
+table{
+border:0px; /* border="0" */
+border-collapse:collapse; /* cellspacing="0" */
+}
+
+table td{
+padding:0px; /* cellpadding="0" */
+} 
+
+a{
+text-decoration:none;
+color: #517280
+}
+a:hover{
+color:#5c932b;
+}
+a img{
+border:none;
+BACKGROUND-COLOR: none;
+/*padding: 3px;*/
+pagging:0px;
+}
+a.catalog_link img{
+
+ BACKGROUND: url(/img/wks/svet11.png) ;
+BACKGROUND-REPEAT: no-repeat;
+
+/*BACKGROUND-POSITION: 3px 3px;*/
+border:0px solid;
+/*BACKGROUND-COLOR: #e9f2c9;*/
+}
+a:hover.catalog_link img{
+
+BACKGROUND: url(/img/wks/svet22.png) ;
+BACKGROUND-REPEAT: no-repeat;
+/*BACKGROUND-POSITION: 2px 2px;*/
+/*BACKGROUND-COLOR: #e9f2c9;*/
+/*BACKGROUND-COLOR: #A9e289;*/
+}
+
+.h3, h3 {
+	font-family: Arial;
+	text-decoration: none;
+  	color: #517280;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+/*
+#content p{
+	margin: 0.5em 0;
+	text-indent: 20px;
+}
+*/
+
+
+.Panorama{
+margin:0 0px 0 -2px;
+}
+.art-Header-jpeg
+{
+BACKGROUND-REPEAT: no-repeat;
+width:300px;
+HEIGHT:200px;
+}
+
+#main{
+/*border:3px solid;*/
+WIDTH:100%;
+MIN-WIDTH:1260px;
+FLOAT: left;
+}
+
+#top_line{
+/*position:absolute;
+top :0;*/
+	WIDTH:100%;
+	HEIGHT: 15px;
+	BACKGROUND-COLOR: #5c932b;
+}
+#bottom_line{
+	WIDTH:100%;
+	HEIGHT: 30px;
+	BACKGROUND-COLOR: #5c932b;
+FLOAT: left;
+font-size:12px;
+color:#fff;
+}
+
+#container{FLOAT: left;
+width:100%;
+	BACKGROUND-IMAGE: url(/img/wks/left-lines-75.jpg); 
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-POSITION: left -30px;
+
+}
+
+
+#content_block{ 
+width:100%;
+/*MARGIN: 0 0 0 350px;*/
+BACKGROUND-IMAGE: url(/img/wks/right-image-75.jpg);
+BACKGROUND-REPEAT: no-repeat;
+BACKGROUND-POSITION: right top;
+}
+#header{
+	margin-left:255px;
+	HEIGHT: 260px;
+BACKGROUND-IMAGE: url(/img/wks/header.png);
+BACKGROUND-REPEAT: repeat-x;
+BACKGROUND-POSITION: left bottom;
+}
+
+#auth{
+	WIDTH: 180px;
+	HEIGHT: 160px;
+	FLOAT:right;
+	CLEAR:right;
+font-size:12px;
+
+}
+#auth input{
+font-family: monospace;
+
+}
+
+#leng{
+	FLOAT: right;
+	MARGIN: 5px;
+}
+
+
+#logo{
+	WIDTH:400px;
+	HEIGHT: 110px;
+	BACKGROUND-IMAGE: url(/img/wks/wks_logo.jpg);
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-POSITION: left bottom;
+	MARGIN-LEFT:-200px;
+
+}
+#navigation{
+	MARGIN-TOP:120px;
+	MARGIN-LEFT:10px;
+	HEIGHT: 40px;	
+	
+}
+
+#right-image{
+	float:right;
+	WIDTH:285px;
+	HEIGHT: 300px;
+	/*BACKGROUND-IMAGE: url(/img/wks/right-image-75.jpg);*/
+	MARGIN:-44px -60px 10px 10px;
+
+	clear:both;
+	WIDTH: 240px;
+	HEIGHT:180px;
+
+MARGIN:0px;
+}
+#bottom-image{
+	float:right;
+
+	WIDTH: 50px;
+	HEIGHT:200px;
+	margin-top:-200px;
+
+	BACKGROUND-IMAGE: url(/img/wks/right-bott-75.jpg);
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-POSITION: right:30px top;
+
+}
+
+#wrapper1{
+	FLOAT: left;
+	BACKGROUND-IMAGE: url(/img/wks/right-bott-75.jpg);
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-POSITION: right bottom;
+}
+#content{ BORDER: 0px #fff solid;
+
+	MIN-HEIGHT: 488px;
+	/*MIN-WIDTH: 900px;*/
+	margin:0px; 
+	margin-left:280px;
+	PADDING: 0 50px 0 0;
+overflow:hidden
+}
+#right_bot_lines{
+	BACKGROUND-IMAGE: url(/img/wks/right-bott-75.jpg);
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-POSITION: right bottom;
+}
+
+.hausdetail a { 
+ display:block;
+ width:200px;
+ height:200px;
+ background:url(/img/wks/haus_detail_TRANS.png) no-repeat; 
+	BACKGROUND-POSITION: right bottom;
+}
+
+/*DIV{BORDER: 0px #000 solid; /*FLOAT: left;*/}
+/*TABLE, TABLE TD{BORDER: 0px #000 solid;}*/
+
+
+#header UL.menu {
+/*	MARGIN: 117px 5px 0px 0px; FLOAT: right; OVERFLOW: hidden*/
+}
+#header UL.menu LI {LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none;
+	LINE-HEIGHT: 40px; PADDING: 0px;  MARGIN-top: -10px; MARGIN-BOTTOM:-10px; BACKGROUND: url(/img/wks/navigation_sep.png) no-repeat left top; FLOAT: left; FONT-SIZE: 110%; 
+}
+
+#header UL.menu LI A {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 10px; DISPLAY: block; WHITE-SPACE: nowrap; FLOAT: left; COLOR: #fff; TEXT-DECORATION: none; 
+}
+#header UL.menu LI A.active {
+	BACKGROUND: url(/sites/default/themes/kiecose/images/backgrounds/navigation_active.png) center top
+}
+#header UL.menu LI.active-trail A {
+	BACKGROUND: url(/sites/default/themes/kiecose/images/backgrounds/navigation_active.png) center top
+}
+
+
+#navpanel{
+WIDTH: 710px;margin:0px 0 0 260px;
+MIN-HEIGHT: 30px;
+}
+UL.art2-menu {
+  margin:0; padding:0;
+}
+UL.art2-menu LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px;  DISPLAY: inline;  FLOAT: none; MARGIN-LEFT: 5px; FONT-SIZE: 91%; PADDING-TOP: 0px
+}
+UL.art2-menu LI A {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 12px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block !important; BACKGROUND: #e9f2c9; TEXT-DECORATION: none;  FLOAT: none; COLOR: #407b23; PADDING-TOP: 4px; MARGIN-top: 10px;
+}
+UL.art2-menu LI A.active {
+	COLOR: #622715; FONT-WEIGHT: bold
+}
+LI.leaf {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: square; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em; /*LIST-STYLE-IMAGE: url(/misc/menu-leaf.png);*/ PADDING-TOP: 0.2em
+}
+.art-button{
+    background-color: #5C932B;
+    border: medium none;
+    color: #FFFFFF;
+padding:2px;
+}
+input[type="button"] {cursor:pointer ;}
+input[type="submit"] {cursor:pointer ;}

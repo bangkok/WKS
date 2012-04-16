@@ -1,0 +1,43 @@
+#main{
+MIN-WIDTH:1260px;
+}
+#subsubnavbreit {
+	background-image: url(/img/wks/subsubbreitbg.jpg);
+	background-repeat: repeat-y;
+	width: 674px;
+	margin: 0 0 10px 0px;
+}
+
+#subsubnavbreittop {
+	background-image: url(/img/wks/subsubbreittop.jpg);
+	background-repeat: no-repeat;
+	width: 674px;
+	height: 13px;
+}
+
+.clsubsubnavbreit {
+	/*float: left;*/
+/*	line-height: 18px;*/
+	width: 670px;
+	/* width: 168px; */
+	PADDING: 0 0 0 20px; 
+}
+.clsubsubnavbreit div{
+	float: left;
+	line-height: 18px;
+	width: 162px;
+
+}
+
+#subsubnavbreitbot {
+	background-image: url(/img/wks/subsubbreitbot.jpg);
+	background-repeat: no-repeat;
+	background-position:bottom;
+	clear: left;
+	width: 674px;
+	height: 13px;
+}
+
+.cost{
+font-size: 16px;
+}

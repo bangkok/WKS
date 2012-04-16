@@ -1,0 +1,23 @@
+AddDefaultCharset UTF-8
+php_value error_reporting 7
+php_value register_globals on
+
+Options +FollowSymLinks
+RewriteEngine on 
+
+Redirect 302 /email http://178.86.5.184/roundcube 
+Redirect 302 /email2 http://mail.google.com/a/wks.com.ua
+RewriteCond %{HTTP_HOST} ^(.*)mail(.*)
+RewriteRule ^(.*)$ email/  [L]
+
+#RewriteRule ^(.*) http://178.86.5.184/roundcube/ [L]
+
+RewriteRule ^images/(.*)\.jpg(.*)$  file/trf/nrfl/flim/$1 [L]
+RewriteRule ^images/(.*)\.png(.*)$  file/trf/nrfl/flim/$1 [L]
+RewriteRule ^images/(.*)\.swf(.*)$  file/trf/nrfl/flim/$1 [L]
+RewriteRule ^pdfs/(.*)\.pdf(.*)$  file/trf/nrfl/flim/$1 [L]
+
+RewriteRule ^$ /index.php [L] 
+
+RewriteCond $1 !^(index\.php|images|typicalprojects|download|admin|css|js|WKS_me|robots\.txt|favicon\.ico|trf\.php|img|googlehostedservice\.html) 
+RewriteRule ^(.*)$ /index.php/$1 [L] 

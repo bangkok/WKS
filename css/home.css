@@ -1,0 +1,195 @@
+b.niftycorners, b.niftyfill {
+    display: block;
+}
+b.niftycorners * {
+    border-style: solid;
+    border-width: 0 1px;
+    display: block;
+    font-size: 1px;
+    height: 1px;
+    line-height: 1px;
+    overflow: hidden;
+}
+b.r1 {
+    border-width: 0 2px;
+    margin: 0 3px;
+}
+b.r2 {
+    margin: 0 2px;
+}
+b.r3 {
+    margin: 0 1px;
+}
+b.r4 {
+    height: 2px;
+}
+b.rb1 {
+    border-width: 0 2px;
+    margin: 0 8px;
+}
+b.rb2 {
+    border-width: 0 2px;
+    margin: 0 6px;
+}
+b.rb3 {
+    margin: 0 5px;
+}
+b.rb4 {
+    margin: 0 4px;
+}
+b.rb5 {
+    margin: 0 3px;
+}
+b.rb6 {
+    margin: 0 2px;
+}
+b.rb7 {
+    height: 2px;
+    margin: 0 1px;
+}
+b.rb8 {
+    height: 2px;
+    margin: 0;
+}
+b.rs1 {
+    margin: 0 1px;
+}
+b.t1 {
+    border-width: 0 5px;
+}
+b.t2 {
+    border-width: 0 3px;
+}
+b.t3 {
+    border-width: 0 2px;
+}
+b.t4 {
+    height: 2px;
+}
+b.tb1 {
+    border-width: 0 10px;
+}
+b.tb2 {
+    border-width: 0 8px;
+}
+b.tb3 {
+    border-width: 0 6px;
+}
+b.tb4 {
+    border-width: 0 5px;
+}
+b.tb5 {
+    border-width: 0 4px;
+}
+b.tb6 {
+    border-width: 0 3px;
+}
+b.tb7 {
+    border-width: 0 2px;
+    height: 2px;
+}
+b.tb8 {
+    border-width: 0 1px;
+    height: 2px;
+}
+b.ts1 {
+    border-width: 0 2px;
+}
+
+
+.box, .box_h {
+    background-color: #5C932B;
+    color: #E6E5E3;
+    margin-bottom: 10px;
+}
+.box a, .box_h a {
+    color: #E6E5E3;
+}
+.box a:hover, .box_h a:hover {
+	color: #FFFFFF;
+}
+.box h2, .box_h h2 {
+    color: #E6E5E3;
+    margin: 0;
+	font-family: Verdana;
+ 	font-size: 13px;
+}
+.box h3, .box_h h3 {
+    color: #E6E5E3;
+}
+.box table td.header, .box_h table td.header {
+    height: 30px;
+    padding: 0 10px;
+}
+.box table td.img, .box_h table td.img {
+    height: 140px;
+    padding: 0;
+}
+.box table td.text, .box_h table td.text {
+    font-size: 14px;
+    padding: 10px;
+	color: #E6E5E3;
+}
+.box table td.link, .box_h table td.link {
+    height: 26px;
+    padding: 0 10px;
+}
+.box table td.link a, .box_h table td.link a {
+    text-decoration: none;
+}
+.box table td.link div a, .box_h table td.link div a {
+    background: url("/img/link_arrow.gif") no-repeat scroll right top transparent;
+    color: #E6E5E3;
+    font-size: 0.91em;
+    padding-right: 23px;
+}
+.box_h table td.header {
+    background: url("/img/houses_bg_top.gif") no-repeat scroll left top transparent;
+}
+.box_h table td.link {
+    background: url("/img/houses_bg_bottom.gif") no-repeat scroll left bottom transparent;
+}
+
+.home {
+    width: 232px;
+}
+.margin {
+    float: left;
+    margin-right: 11px;
+}
+.nomargin {
+    float: left;
+}
+.smaller {
+    width: 231px;
+}
+.box table .text{
+	height: 32px;
+}
+a:hover.home_button img{
+	BACKGROUND: url(/img/home/light.png) ;
+	BACKGROUND-REPEAT: no-repeat;
+}
+
+.b_radius
+{
+background-color: rgb(73, 71, 65);
+border-color: rgb(164, 163, 160);
+
+background-color: #5C932B;
+border-color: rgb(164, 163, 160);
+}
+.b_background_t
+{
+margin-left: 0px;
+margin-right: 0px;
+background: none repeat scroll 0% 0% rgb(255, 255, 255);
+margin-top: -5px;
+}
+.b_background_b
+{
+margin-left: 0px;
+margin-right: 0px;
+background: none repeat scroll 0% 0% rgb(255, 255, 255);
+margin-bottom: -5px;
+}

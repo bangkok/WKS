@@ -1,0 +1,57 @@
+
+.hausdia {
+/*
+ width:125px;
+ height:120px; 
+*/
+/*border:1px solid;*/
+ width:170px;
+ height:160px; 
+ 
+ 
+ /*background: 11px 14px no-repeat;*/
+/*background: 8px 12px no-repeat;*/
+ background: 5px 15px no-repeat;
+ line-height: 13px;
+ text-align:center;
+ padding: 4px 8px 4px 0px;
+}
+
+.hausdia a { 
+	font-family: Arial;
+	text-decoration: none;
+  	color: #517280;
+	font-size: 12px;
+	font-weight: bold;
+	cursor:pointer;
+
+ display:block;
+ width:170px;
+ height:160px;
+/*
+ height:30px;
+ padding: 90px 0 0 0;
+*/
+ background:url(/img/buttons/haus_dia.png) no-repeat; 
+}
+
+.hausdia a:hover {
+	font-family: Arial;
+	text-decoration: none;
+  	color: #5c932b;
+	font-weight: bold;
+
+ background:url(/img/buttons/haus_dib.png) no-repeat; 
+ /*BACKGROUND-POSITION: 0;*/
+}
+
+.hausdia .hausvar
+{
+ font-size:9px;
+}
+
+.hausdia img { 
+ width:150px;
+ height:130px;
+ /*border:1px solid;*/
+ }

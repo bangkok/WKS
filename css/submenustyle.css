@@ -1,0 +1,314 @@
+/* begin Menu */
+/* menu structure */
+
+.art2-menu a, .art2-menu a:link, .art2-menu a:visited, .art2-menu a:hover
+{
+	text-align:left;
+	text-decoration:none;
+	outline:none;
+	letter-spacing:normal;
+	word-spacing:normal;
+}
+
+.art2-menu, .art2-menu ul
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style-type: none;
+	display: block;
+	/*max-width:800px;*/
+}
+
+.art2-menu li
+{
+	margin: 0px;
+	padding: 0;
+	border: 0;
+	display: block;
+	float: left;
+	position: relative;
+	z-index: 5;
+	background:none;
+}
+
+.art2-menu li a{margin-top: 5px;}
+.art2-menu li ul li a{margin-top: 0px;}
+
+.art2-menu li:hover
+{
+	z-index: 10000;
+	white-space: normal;
+}
+
+.art2-menu li li
+{
+	float: none;
+}
+
+.art2-menu ul
+{
+	visibility: hidden;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	background:none;
+}
+
+.art2-menu li:hover>ul
+{
+	visibility: visible;
+	top: 100%;
+}
+
+.art2-menu li li:hover>ul
+{
+	top: 0;
+	left: 100%;
+}
+
+.art2-menu:after, .art2-menu ul:after
+{
+	content: ".";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+	clear: both;
+}
+.art2-menu, .art2-menu ul
+{
+	min-height: 0;
+}
+
+.art2-menu ul
+{
+	background-image: url(/img/spacer.gif);
+	padding: 10px 30px 30px 30px;
+	margin: -10px 0 0 -30px;
+}
+
+.art2-menu ul ul
+{
+	padding: 30px 30px 30px 10px;
+	margin: -30px 0 0 -10px;
+}
+
+
+
+
+
+/* menu structure */
+
+.art2-menu
+{
+	padding: 6px 6px 0px 6px;
+}
+/*
+.art2-nav
+{
+	position: relative;
+	height: 41px;
+	z-index: 100;
+}
+
+.art2-nav .l, .art2-nav .r
+{
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	height: 41px;
+	background-image: url('/img/nav.png');
+}
+
+.art2-nav .l
+{
+	left: 0;
+	right:0px;
+}
+
+.art2-nav .r
+{
+	right: 0;
+	width: 1174px;
+	clip: rect(auto, auto, auto, 1174px);
+}
+*/
+
+/* end Menu */
+
+/* begin MenuItem */
+
+.art2-menu ul li
+{
+	clear: both;
+}
+
+.art2-menu a
+{
+	position:relative;
+	display: block;
+	overflow:hidden;
+	height: 29px;
+	cursor: pointer;
+	text-decoration: none;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+/*
+.art2-menu a .r, .art2-menu a .l
+{
+	position:absolute;
+	display: block;
+	top:0;
+	z-index:-1;
+	height: 87px;
+	background-image: url('/img/Menu2-Item.png');
+}
+*/
+
+.art2-menu a .l
+{
+	left:0;
+	right:1px;
+}
+
+.art2-menu a .r
+{
+	width:402px;
+	right:0;
+	clip: rect(auto, auto, auto, 401px);
+}
+
+.art2-menu a .t 
+{
+font-family: Arial, Helvetica, Sans-Serif;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+	color: #232622; #DDE0DC;
+	padding: 0 10px;
+	margin: 0 1px;
+	line-height: 29px;
+	text-align: center;
+}
+
+.art2-menu a:hover .l, .art2-menu a:hover .r
+{
+	top:-29px;
+}
+
+.art2-menu li:hover>a .l, .art2-menu li:hover>a .r
+{
+	top:-29px;
+}
+
+.art2-menu li:hover a .l, .art2-menu li:hover a .r
+{
+	top:-29px;
+}
+.art2-menu a:hover .t
+{
+	color: #fff;#232622;
+}
+
+.art2-menu li:hover a .t
+{
+	color: #fff;#232622;
+}
+
+.art2-menu li:hover>a .t
+{
+	color: #BB991B;#232622;
+}
+
+
+.art2-menu a.active .l, .art2-menu a.active .r
+{
+	top: -58px;
+}
+
+.art2-menu a.active .t
+{
+	color: #070807;
+	text-decoration: underline;
+}
+
+
+/* end MenuItem */
+
+/* begin MenuSubItem */
+.art2-menu ul a
+{
+	display:block;
+	text-align: center;
+	white-space: nowrap;
+	height: 20px;
+	/*width: 180px;*/
+	overflow:hidden;
+	line-height: 20px;
+	margin-right: auto;
+
+
+	/*background-image: url('/img/subitem-bg.png');*/
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-width: 0px;
+	border-style: solid;
+}
+
+.art2-nav ul.art2-menu ul span, .art2-nav ul.art2-menu ul span span
+{
+	display: inline;
+	float: none;
+	margin: inherit;
+	padding: inherit;
+	background-image: none;
+	text-align: inherit;
+	text-decoration: inherit;
+}
+
+.art2-menu ul a, .art2-menu ul a:link, .art2-menu ul a:visited, .art2-menu ul a:hover, .art2-menu ul a:active, .art2-nav ul.art2-menu ul span, .art2-nav ul.art2-menu ul span span
+{
+	text-align: left;
+	text-indent: 12px;
+	text-decoration: none;
+	line-height: 20px;
+	color: #474024;
+font-family: Arial, Helvetica, Sans-Serif;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+}
+
+.art2-menu ul ul a
+{
+	margin-left: auto;
+}
+
+.art2-menu ul li a:hover
+{
+	color: #F8F7F1;
+	background-position: 0 -20px;
+}
+
+.art2-menu ul li:hover>a
+{
+	color: #F8F7F1;
+	background-position: 0 -20px;
+}
+
+.art2-nav .art2-menu ul li a:hover span, .art2-nav .art2-menu ul li a:hover span span
+{
+	color: #F8F7F1;
+}
+
+.art2-nav .art2-menu ul li:hover>a span, .art2-nav .art2-menu ul li:hover>a span span
+{
+	color: #F8F7F1;
+}
+
+
+/* end MenuSubItem */

@@ -1,0 +1,73 @@
+#main{
+MIN-WIDTH:1280px;
+}
+#right-image{
+	display:none;
+}
+a img{
+border:none;
+BACKGROUND-COLOR: none;
+/*padding: 3px;*/
+pagging:0px;
+}
+a.catalog_link img{
+
+ BACKGROUND: url(/img/wks/svet11.png) ;
+BACKGROUND-REPEAT: no-repeat;
+
+/*BACKGROUND-POSITION: 3px 3px;*/
+border:0px solid;
+/*BACKGROUND-COLOR: #e9f2c9;*/
+}
+a:hover.catalog_link img{
+
+BACKGROUND: url(/img/wks/svet22.png) ;
+BACKGROUND-REPEAT: no-repeat;
+/*BACKGROUND-POSITION: 2px 2px;*/
+/*BACKGROUND-COLOR: #e9f2c9;*/
+/*BACKGROUND-COLOR: #A9e289;*/
+}
+
+#subsubnavbreit {
+	background-image: url(/img/wks/subsubbreit_450bg.jpg);
+	background-repeat: repeat-y;
+/*	width: 674px;*/
+	width: 450px;
+	margin: 0 0 10px 0px;
+}
+
+#subsubnavbreittop {
+	background-image: url(/img/wks/subsubbreit_450top.jpg);
+	background-repeat: no-repeat;
+/*	width: 674px;*/
+	width: 450px;
+	height: 13px;
+}
+
+.clsubsubnavbreit {
+	float: left;
+/*	line-height: 18px;*/
+/*	width: 650px;*/
+	width: 420px;
+	/* width: 168px; */
+	PADDING: 0 0 0 20px; 
+	display:block;
+/*border:1px solid;*/
+
+}
+/*.clsubsubnavbreit div{
+	float: left;
+	line-height: 18px;
+	width: 162px;
+
+}*/
+
+#subsubnavbreitbot {
+	background-image: url(/img/wks/subsubbreit_450bot.jpg);
+	background-repeat: no-repeat;
+	background-position:bottom;
+	clear: left;
+/*	width: 674px;*/
+	width: 450px;
+	height: 13px;
+}
