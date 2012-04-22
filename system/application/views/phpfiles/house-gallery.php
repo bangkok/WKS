@@ -1,12 +1,6 @@
 <?$houselink = str_replace(" ","_",$houselink)?>
-<style>
-/*Div {border:1px solid}*/
-#main {min-width:1300px;)
 
-
-</style>
-
-<div style="float:left; width:700px; /*margin-left:-20px*/">
+<div style="float:left; -width:700px; /*margin-left:-20px*/">
 
 
 				
@@ -28,9 +22,9 @@
 
 				<div id="thumbs" class="navigation">
 					<ul class="thumbs noscript">
-<? for($i=1;$i<20;$i++) if(is_readable($imagepath = 'typicalprojects_min/'.$link.'/'.$houselink.'/'.$i.'.jpg')):?>	
+<? for($i=2;$i<20;$i++) if(is_readable($imagepath = 'typicalprojects_min/'.$link.'/'.$houselink.'/'.$i.'.jpg')):?>
 						<li>
-							<a class="thumb" name="leaf" href="/<?='typicalprojects/'.$link.'/'.$houselink.'/'.$i.'.jpg'?>" >
+							<a class="thumb" name="leaf" href="/<?='typicalprojects_max/'.$link.'/'.$houselink.'/'.$i.'.jpg'?>" >
 								<img src="/<?=$imagepath?>" width="75"height="56" />
 							</a>
 							<div class="caption">
@@ -253,3 +247,9 @@
 
 
 
+<style type="text/css">
+div.slideshow span.current{
+	position: relative;
+}
+
+</style>

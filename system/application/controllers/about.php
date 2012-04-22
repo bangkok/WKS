@@ -6,7 +6,7 @@ class About extends Base {
 	{
 		parent::Base();	
 		
-		//print_r($this->data['Menu']);;;
+		//print_r($this->data['Menu']);
 		$this->data['Content']['text']=$this->config_model->getText($this->data['Content']['id'],'about');	
 	}
 	

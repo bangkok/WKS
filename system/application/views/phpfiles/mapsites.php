@@ -1,5 +1,5 @@
 <?//print_r($MenuLeft);
-if(!empty($Menu)):$i=0; foreach ($Menu as $m):$i++;?>
+if(!empty($Menu)):$i=0; foreach ($Menu as $m): if(empty($m)){continue;} $i++;?>
        <div style="padding-left:5px; margin-top:8px;"><a style="font-size:18px;" href="<?=$m['link']?>" title="<?//=$m['name']?>"><?=$i?>. <?=$m['name']?></a></div>
          <?if(!empty($m['child'])):$j=0;
               foreach ($m['child'] as $m1):$j++;?>
@@ -11,8 +11,10 @@ if(!empty($Menu)):$i=0; foreach ($Menu as $m):$i++;?>
                          endif;
              endforeach;
           endif;
-endforeach;
-endif;?>
+endforeach;?>
+<br>
+<?endif;?>
+
 
 
 

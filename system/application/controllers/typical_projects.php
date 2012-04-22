@@ -62,9 +62,13 @@ $this->data['per_page']=$this->config_model->getConfigName('num_houses');
 		$this->data['Styles'] .= $this->AddStyle('button'); 
 		$this->data['Content']['text'] = $this->load->view($this->data['papka'].'/catalog.php',$this->data['Catalog'], true);
 	}
-	else $this->data['Styles'] .= $this->AddStyle('style_WKS_projects'); 
+	else {
+		$this->data['template_file_path'] = "tpl/list_page.tpl";
+		$this->data['Styles'] .= $this->AddStyle('home');
+		//$this->data['Styles'] .= $this->AddStyle('style_WKS_projects');
 
-     		$this->load->view('pageconstructor', $this->data); 
+		}
+     		$this->load->view('pageconstructor', $this->data);
 	}
 
 	function house($link, $show='')

@@ -17,4 +17,4 @@
 <?php endif;?>
 </div>
 
-<? $str= 'кирилица'; for($i=0; $i<strlen($str); $i++) echo '%'.bin2hex($str[$i]);?>
+<?// $str= 'кирилица'; for($i=0; $i<strlen($str); $i++) echo '%'.bin2hex($str[$i]);?>

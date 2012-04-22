@@ -43,6 +43,8 @@ function feedback() {
     //$this->load->library('validation');
     $this->lang->load('forma',$this->data['lang']);
     $this->lang->load('validation',$this->data['lang']);
+
+	$this->data['Js'] .= $this->AddJs('function');
     
     
 	// fields verify

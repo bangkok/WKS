@@ -18,13 +18,34 @@ class Main extends Base
 		}
 */
 
-	if( $this->uri->uri_string(1) == "/home"){
-		$this->data['Js'] .= $this->AddJs('jquery.cycle | cycle | nivo-slider');
-		$this->data['Styles'] .= $this->AddStyle('nivo-slider_orman | nivo-slider');
+	if( $this->uri->uri_string() == "/home"){
+		$this->data['Js'] .= $this->AddJs('jquery.cycle | cycle | accordian.pack');
+		$this->data['Styles'] .= $this->AddStyle('home');
+		$this->data['template_file_path'] = "tpl/home_page.tpl";
 	//$this->data['Content']['name'] = '';
 	}
 
-	if( $this->uri->uri_string(2) == "/home/about"){
+	if( in_array($this->uri->uri_string(), array(
+		'/advantageWKS',
+		'/technology',
+		'/individual_building'
+	)) ){
+		$this->data['template_file_path'] = "tpl/list_page.tpl";
+	}
+
+	if( $this->uri->segment(1) == "list"){
+		$this->data['template_file_path'] = "tpl/list_page.tpl";
+		$this->data['Js'] .= $this->AddJs('jquery.cycle | cycle');
+	}
+
+	if( $this->uri->uri_string() == "/test"){
+		$this->data['Js'] .= $this->AddJs('jquery.cycle | cycle | colorbox');
+		$this->data['Styles'] .= $this->AddStyle('home | colorbox');
+
+		$this->data['template_file_path'] = "tpl/test_page.tpl";
+	}
+
+	if( $this->uri->uri_string() == "/home/about"){
 		$this->data['Styles'] .= $this->AddStyle('style_WKS_about');
 	}
 
@@ -32,7 +53,7 @@ class Main extends Base
 		$this->data['Styles'] .= $this->AddStyle('style_WKS_about');
 	}
 
-	if( $this->uri->uri_string(2) == "/home/partners"){
+	if( $this->uri->uri_string() == "/home/partners"){
 		$this->data['Styles'] .= $this->AddStyle('style_WKS_about');
 	}
 
@@ -41,8 +62,6 @@ class Main extends Base
 	}
 
 
- 	if($this->uri->uri_string() == '/technology')
-   	  	header("Location: /technology/about_taechnology");
 
  	if($this->uri->uri_string() == '/products')
    	  	header("Location: /products/wall_panels");
@@ -53,10 +72,7 @@ class Main extends Base
 	if($this->uri->uri_string() == '/construction/buld')
 		$this->data['Styles'] .= $this->AddStyle('style_WKS_buld');
 
-	if($this->uri->uri_string() == '/technology/about_taechnology')
-		$this->data['Styles'] .= $this->AddStyle('proizvod');
-	if($this->uri->uri_string() == '/technology/constr_process')
-		$this->data['Styles'] .= $this->AddStyle('proizvod');
+
 
 /*
 	if( $this->uri->uri_string(1) == "/media/tapinfo"){

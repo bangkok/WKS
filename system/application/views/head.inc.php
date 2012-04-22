@@ -3,10 +3,17 @@
 $Js['script']=	'<script type="text/javascript" src="/js/script.js"></script>';
 $Js['jquery-1.4.2']='<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>';
 $Js['jquery-1.6.1']='<script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script>';
+$Js['jquery-1.7.1']='<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>';
+
+$Js['UI']='<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js" type="text/javascript"></script>';
+$Js['blocks']='<script type="text/javascript" src="/js/blocks.js"></script>';
+
+
 $Js['jquery.cycle']= '<script type="text/javascript" src="/js/jquery.cycle.all.2.74.js"></script>';
 $Js['cycle']= '<script type="text/javascript">$.fn.cycle.defaults.speed   = 1500;$.fn.cycle.defaults.timeout = 6000; $(".Panorama").cycle({fx:\'fade\',delay:-4000});</script>';
 $Js['cycle2']= '<script type="text/javascript">$.fn.cycle.defaults.speed   = 2500;$.fn.cycle.defaults.timeout = 1000; $(".Panorama").cycle({fx:\'fade\',delay:-4000});</script>';
 $Js['nivo-slider']='<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>';
+
 
 
 $Js['menunav']="<script type=\"text/javascript\"> 
@@ -41,8 +48,21 @@ $Js['jquery.galleriffic']=	'<script type="text/javascript" src="/js/jquery.galle
 $Js['jquery.opacityrollover']=	'<script type="text/javascript" src="/js/jquery.opacityrollover.js"></script>';
 $Js['piroBox_packed']=	'<script type="text/javascript" src="/js/piroBox_packed.js"></script>';
 $Js['jquery-pirobox']=	'<script type="text/javascript" src="/js/jquery-pirobox.js"></script>';
+$Js['accordian.pack']=	'<script type="text/javascript" src="/js/accordian.pack.js"></script>';
+
+
+
 
 $Js['gallery']=	'<script type="text/javascript" src="/js/gallery.js"></script>';
+
+
+$Js['colorbox']=	'<script type="text/javascript" src="/js/jquery.colorbox.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+				$(".group1").colorbox({rel:"group1"});
+			});
+</script>
+';
 
 //$Js[]='';
 ?>
@@ -62,12 +82,23 @@ $Style['submenustyle']='<link rel="stylesheet" href="/css/submenustyle.css" type
 $Style['submenustyle.ie6']='<!--[if IE 6]><link rel="stylesheet" href="/css/submenustyle.ie6.css" type="text/css" media="screen" /><![endif]-->';
 $Style['cssmenu']= '<link rel="stylesheet" href="/css/cssmenu.css" type="text/css" media="screen" />';
 $Style['blocks']= '<style type="text/css">
-table.blocks{width:500px; margin-top: 30px; background-color:#FAFAFA}
-.blocks td	{border-top: 1px solid #777; padding:10px 5px}
-.blocks img	{width:50px; margin:0px 10px; float:left}
-.blocks div	{margin-right:30px}
-.blocks p	{text-indent: 0}
-.blocks a	{text-decoration: none; color: #393E37}
+div.block{
+	margin: 10px 10px 10px 0;
+	box-shadow: 8px 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 0 8px 0 30px;
+}
+div.block div.content{
+	margin-bottom: 10px;
+}
+div.block div.content div.text{
+	padding-left: 10px
+}
+div.block div.scroll{
+	margin-top: 5px;
+}
+div.block div.naw div{
+	padding: 0 10px;
+}
 </style>';
 
 $Style['News-Block']='<style type="text/css">
@@ -104,10 +135,13 @@ $Style['nivo-slider_pascal']= '<link rel="stylesheet" href="/css/nivo-slider/pas
 $Style['nivo-slider_orman']= '<link rel="stylesheet" href="/css/nivo-slider/orman.css" type="text/css" media="screen" />';
 $Style['nivo-slider']= '<link rel="stylesheet" href="/css/nivo-slider/nivo-slider.css" type="text/css" media="screen" />';
 
-    
-    
-    
-    
+$Style['home']= '<link rel="stylesheet" href="/css/accordion.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/roundedcorners.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/home.css" type="text/css" media="screen" />';
+
+$Style['colorbox']= '<link rel="stylesheet" href="/css/colorbox/colorbox.css" type="text/css" media="screen" />';
+
+$Style['UI']= '<link rel="stylesheet" href="/css/UI/jquery-ui-1.8.17.custom.css" type="text/css" media="all" />';
 
 $Style[]= '';
 ?>

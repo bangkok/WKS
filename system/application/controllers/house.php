@@ -30,9 +30,10 @@ class House extends Base {
 	function index($link, $show='')
 	{
 	if(!$link){ header("Location: /construction/typical_projects"); return 0;}
+		if('test' == $link){$link=1;}
 
-
-		$this->data['Styles'] .= $this->AddStyle('style_WKS_house'); 
+		$this->data['Styles'] .= $this->AddStyle('style_WKS_house | colorbox | home');
+		$this->data['Js'] .= $this->AddJs('colorbox');
 
 		$this->load->model('catalog_model');
 		$this->data['House'] = $this->catalog_model->getHouse($link);
@@ -50,7 +51,7 @@ class House extends Base {
 	{
 	
 	$this->data['Styles'] .= $this->AddStyle('basic- | galleriffic-4');
-	$this->data['Js'] .= $this->AddJs('jquery.galleriffic | jquery.opacityrollover');
+	$this->data['Js'] .= $this->AddJs('jquery.galleriffic | jquery.opacityrollover ');
 	
 		if(!$house || !is_numeric($house)){ header("Location: /construction/typical_projects"); return 0;}
 		$this->load->model('catalog_model');

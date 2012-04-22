@@ -9,7 +9,7 @@ function __construct()
     $this->load->model('gallery_model');
     
     $this->data['Styles'] .= $this->AddStyle('fancy | gallery');
-    
+
     $this->data['Js'] .= $this->AddJs('jquery.gallery | jquery.ifixpng | jquery.fancybox | function ');
    }
 

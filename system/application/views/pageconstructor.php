@@ -72,7 +72,11 @@ $i++;
 
    	  	//var_dump($SubMenu); 
   foreach ($Menu as $item) {
-	if($item['link'] == $this->uri_string || @eregi($item['link'] , $this->uri_string) && $item['link']!='/') $footer_link .= '<a href="'.$item['link'].'"><b>'.$item['name'].'</b></a> | ';
+	if($item['link'] == $this->uri_string ||
+        @eregi($item['link'] , $this->uri_string) &&
+        $item['link']!='/'
+    )
+        $footer_link .= '<a href="'.$item['link'].'"><b>'.$item['name'].'</b></a> | ';
   	else $footer_link .= '<a href="'.$item['link'].'">'.$item['name'].'</a> | ';
 }
 $footer_link = substr($footer_link, 0, -3);
@@ -101,7 +105,7 @@ $pattern[] = '$PANORAMA$';		$replacement[] = $Panorama_html;
 ///*
 $pattern[] = '$MENU$';			$replacement[] = $this->load->view('block/menutop.inc.php',$this->data['Menu'], true);
 
-$pattern[] = '$NAV PANEL$';		$replacement[] = $this->load->view('block/menutopblock.inc.php',$this->data['Menu'], true);
+$pattern[] = '$NAV PANEL$';		$replacement[] = '';//$this->load->view('block/menutopblock.inc.php',$this->data['Menu'], true);
 
 //$pattern[] = '$MENU BLOCK$';	$replacement[] = $this->load->view('block/menu.inc.php',$this->data['TMap'], true);
 
@@ -121,6 +125,7 @@ $pattern[] = '$CONTACTS BLOCK$';$replacement[] = '';//$contact_block;
 
 $pattern[] = '$LENG$';	$replacement[] = "";
 $pattern[] = '$AUTH$';	$replacement[] = $this->load->view('block/auth.inc.php',$this->data, true);
+$pattern[] = '$BUTTONS$';	$replacement[] = "";//$this->load->view('block/buttons.inc.php',$this->data, true);;
 
 //$pattern[] = '$TOP LINKS$';	$replacement[] = $top_links;
 //$pattern[] = '$LEFT LINKS$';	$replacement[] = $left_links;

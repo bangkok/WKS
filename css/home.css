@@ -193,3 +193,7 @@ margin-right: 0px;
 background: none repeat scroll 0% 0% rgb(255, 255, 255);
 margin-bottom: -5px;
 }
+
+#content_right{
+	overflow: auto;
+}

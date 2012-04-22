@@ -27,7 +27,7 @@ function run(text){
 
 	var height_naw = 30;
 	var width_scroll = 30;
-	var width_content = 775;
+	var width_content = 765;
 	var height_content = 400;
 
 	content.width(width_content < text.width() ? width_content : text.width());

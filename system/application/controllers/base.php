@@ -9,8 +9,8 @@ class Base extends Base1
 	$this->load->model('panorama_model'); 
 
 	$this->load->view('head.inc.php','', true);
-	$this->data['Styles'] = $this->AddStyle('style | style.ie6- | style.ie7- | submenustyle- | submenustyle.ie6- | cssmenu- | News-Block- | page');
-	$this->data['Js'] = $this->AddJs('script- | jquery-1.6.1 | jquery-1.4.2- | jquery.cycle- | cycle- | menunav | cssmenuhover- | function');
+	$this->data['Styles'] = $this->AddStyle('style | page | UI | blocks');
+	$this->data['Js'] = $this->AddJs('jquery-1.7.1 | menunav- |  UI | blocks');
 	
 	
 	$this->data['auth']['userData']=$this->db_session->userdata('auth');

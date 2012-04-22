@@ -11,7 +11,7 @@ foreach ($Menu as $item)
 	$menu .= '">
 	
 	<A 
-href="'.$item['link'].'">&nbsp;&nbsp;&nbsp;&nbsp;'.$item['name'].'</A>';
+href="'.$item['link'].'">'.$item['name'].'</A>';
 /*
 	<a href="'.$item['link'].'"';
 	if($item['link'] == $this->uri_string || eregi($item['link'] , $this->uri_string) && $item['link']!='/') $menu .=' class=" active"';

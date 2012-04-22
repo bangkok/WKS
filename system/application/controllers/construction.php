@@ -41,7 +41,7 @@ class Construction extends Base {
 	{
 		$this->data['Styles'] .= $this->AddStyle('proizvod');
 		$this->data['Js'] .= $this->AddJs('zoomi_');
-		$this->data['Content']['name'] = mb_convert_encoding('<p><span style="color:#5c932b">Современные дома строят только на фабрике!</span></p>',"UTF-8", 'cp-1251')
+		$this->data['Content']['name'] = mb_convert_encoding('<p><span style="color:#5c932b">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ!</span></p>',"UTF-8", 'cp-1251')
  .$this->data['Content']['name'];
 
      		$this->load->view('pageconstructor', $this->data);
