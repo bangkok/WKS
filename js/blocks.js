@@ -75,7 +75,7 @@ function run(text){
 		if(naw_back.is(":hidden")){naw_back.fadeIn('slow');}
 		text.stop(false,true).animate({'marginTop':margin_top - sub});
 		slider.slider({ value: Math.round((margin_top - sub)*100/(height_text-height_content)+100) });
-		console.log(margin_top + ' ' + sub + ' ' + Math.round(100+(margin_top - sub)*100/(height_text-height_content)) );
+		//console.log(margin_top + ' ' + sub + ' ' + Math.round(100+(margin_top - sub)*100/(height_text-height_content)) );
 	});
 	naw_back.click(function(){
 		margin_top = parseInt(text.css('marginTop').substring(0,text.css('marginTop').indexOf("px")));
@@ -88,7 +88,7 @@ function run(text){
 		if(naw_next.is(":hidden")){naw_next.fadeIn('slow');}
 		text.stop(false,true).animate({'marginTop':margin_top + sub});
 		slider.slider({ value: Math.round(100+(margin_top + sub)*100/(height_text-height_content)) });
-		console.log(margin_top + ' ' + sub + ' ' + Math.round(100+(margin_top + sub)*100/(height_text-height_content)));
+		//console.log(margin_top + ' ' + sub + ' ' + Math.round(100+(margin_top + sub)*100/(height_text-height_content)));
 	});
 }
 

@@ -10,7 +10,7 @@ class Base extends Base1
 
 	$this->load->view('head.inc.php','', true);
 	$this->data['Styles'] = $this->AddStyle('style | page | UI | blocks');
-	$this->data['Js'] = $this->AddJs('jquery-1.7.1 | menunav- |  UI | blocks');
+	$this->data['Js'] = $this->AddJs('jquery | menunav- |  UI | blocks');
 	
 	
 	$this->data['auth']['userData']=$this->db_session->userdata('auth');

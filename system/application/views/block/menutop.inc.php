@@ -1,21 +1,24 @@
 <?//var_dump($Menu);
 //$Menu = $TMenu[1];
-    
 
-$menu = '';$i=0;
-foreach ($Menu as $item)
-{
-	$menu .="\n".'<li onMouseOver="menunav(this); $(\'.art2-menu\').hide();';
-	if(isset($item['child'])||$item['link']=='/') {$i++;
-						$menu .='$(\'#sub'.$i.'\').show();';}
-	$menu .= '">
-	
-	<A 
-href="'.$item['link'].'">'.$item['name'].'</A>';
+$menu = ''; $i=0;
+foreach ($Menu as $item) {
+
+	$menu .="\n".'<li';
+/*
+	$menu .=' onMouseOver="menunav(this); $(\'.art2-menu\').hide();';
+	if (isset($item['child'])||$item['link']=='/') {
+		$i++;
+		$menu .='$(\'#sub'.$i.'\').show();';
+	}
+	$menu .= '"';
+*/
+	$menu .= '><a href="'.$item['link'].'">'.$item['name'].'</a>';
 /*
 	<a href="'.$item['link'].'"';
 	if($item['link'] == $this->uri_string || eregi($item['link'] , $this->uri_string) && $item['link']!='/') $menu .=' class=" active"';
-	$menu .='><span class="l"></span><span class="r"></span><span class="t">'.$item['name'].'</span></a>';*/
+	$menu .='><span class="l"></span><span class="r"></span><span class="t">'.$item['name'].'</span></a>';
+*/
 
 /*
 		if(!empty($item['child'])){

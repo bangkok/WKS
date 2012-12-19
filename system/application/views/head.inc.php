@@ -4,6 +4,8 @@ $Js['script']=	'<script type="text/javascript" src="/js/script.js"></script>';
 $Js['jquery-1.4.2']='<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>';
 $Js['jquery-1.6.1']='<script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script>';
 $Js['jquery-1.7.1']='<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>';
+$Js['jquery-1.8.3']='<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>';
+$Js['jquery'] = $Js['jquery-1.7.1'];
 
 $Js['UI']='<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js" type="text/javascript"></script>';
 $Js['blocks']='<script type="text/javascript" src="/js/blocks.js"></script>';
@@ -15,7 +17,7 @@ $Js['cycle2']= '<script type="text/javascript">$.fn.cycle.defaults.speed   = 250
 $Js['nivo-slider']='<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>';
 
 
-
+/*
 $Js['menunav']="<script type=\"text/javascript\"> 
 function menunav(th){
 	$('.art-menu .l, .art-menu .r').css('top','0px'); 
@@ -24,6 +26,7 @@ function menunav(th){
 	$(th).find('.t').css('color','#0C0E0C'); 
 }
 </script>";
+*/
 
 $Js['cssmenuhover']='<script type="text/javascript">  
 function cssmenuhover(){
