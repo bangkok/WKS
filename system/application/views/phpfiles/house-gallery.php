@@ -253,3 +253,4 @@ div.slideshow span.current{
 }
 
 </style>
+<div style="clear: both;"></div>

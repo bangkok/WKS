@@ -18,8 +18,9 @@ $HEAD$
 <div id="header">
 <div id="leng">$LENG$</div>
 <div id="auth">$AUTH$</div>
+<div id="buttons">$BUTTONS$</div>
 <!--$LOGO$-->
-<div id="logo"></div>
+<a href="/"><div id="logo"><div id="afc"></div></div></a>
 
 
 <div id="navigation">
@@ -28,9 +29,9 @@ $MENU$
 </div>
 
 <div id="content_block">
-<div id="navpanel">
+<!--<div id="navpanel">
 $NAV PANEL$
-</div>
+</div>-->
 
 <div id="content"> 
 <div id="right-image"></div>

@@ -24,7 +24,7 @@ $HEAD$
 
 <div id="header">
 <!--$LOGO$-->
-<div id="logo"></div>
+<div id="logo"><div id="afc"></div></div>
 <div id="navigation">
 $MENU$
 </div>

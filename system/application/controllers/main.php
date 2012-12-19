@@ -21,8 +21,12 @@ class Main extends Base
 	if( $this->uri->uri_string() == "/home"){
 		$this->data['Js'] .= $this->AddJs('jquery.cycle | cycle | accordian.pack');
 		$this->data['Styles'] .= $this->AddStyle('home');
+
+		$title = explode(' | ',$this->data['Content']['title']);
+		unset($title[count($title)-1]);
+		$this->data['Content']['title'] = join(' | ',$title). ' | Главная';
+
 		$this->data['template_file_path'] = "tpl/home_page.tpl";
-	//$this->data['Content']['name'] = '';
 	}
 
 	if( in_array($this->uri->uri_string(), array(

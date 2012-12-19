@@ -153,18 +153,16 @@ if(isset($content))
 </table>
 
 </div>
+
+
 <div style="clear:left; padding-top:5px; FONT-SIZE:12px">
 
 
-	 
+<?/*
       <div id="subsubnavbreit"> 
         <div id="subsubnavbreittop"></div>
         <div class="clsubsubnavbreit"> 
-<!--
-          <div style="width: 180px;"> <br><a href="#" target="FEopenLink" onclick="vHWin=window.open('fileadmin/elk/gr/keller/Ma136 keller.jpg','FEopenLink','menubar=0,scrollbars=0,toolbar=0,resizable=1,width=400,height=400');vHWin.focus();return false;">» Kellergrundriss</a></div>
-          <div style="width: 240px;"><a href="index.php?id=fmhergebnis2&amp;hausserie=Magic&amp;haustyp=136">» Musterhäuser ansehen</a><br><a href="index.php?id=109">» Individuelles Finanzierungsangebot</a></div>
-          <div style="width: 240px;"><a target="_blank" href="fileadmin/elk/preisl/at/MA_136_5P.pdf"><img src="fileadmin/elk/images/pdf.gif" width="19" border="0" height="16"> Preisliste</a><br><a target="_blank" href="fileadmin/elk/lb/at/lb_fh.pdf"><img src="fileadmin/elk/images/pdf.gif" width="19" border="0" height="16"> Liefer- und Leistungsbeschreibung</a><br></div>
--->
+
 <!--
 * Цены на комплекты домов на условиях пакета «Самостоятельное строительство» могут быть просчитаны индивидуально по запросу
 заказчика.<br>
@@ -175,7 +173,7 @@ if(isset($content))
         <div id="subsubnavbreitbot"></div>
       </div>
 
-
+*/?>
 
 <?/*php if($plans):?><?php $plans = explode(",",$plans)?>
 <?php foreach($plans as $plan):?>

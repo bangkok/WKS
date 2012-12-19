@@ -20,7 +20,7 @@ $HEAD$
 <div id="auth">$AUTH$</div>
 <div id="buttons">$BUTTONS$</div>
 <!--$LOGO$-->
-<a href="/"><div id="logo"></div></a>
+<a href="/"><div id="logo"><div id="afc"></div></div></a>
 
 
 <div id="navigation">

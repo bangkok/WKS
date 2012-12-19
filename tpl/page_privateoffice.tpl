@@ -19,7 +19,7 @@ $HEAD$
 <div id="leng">$LENG$</div>
 <div id="auth">$AUTH$</div>
 <!--$LOGO$-->
-<div id="logo"></div>
+<div id="logo"><div id="afc"></div></div>
 
 
 <div id="navigation">

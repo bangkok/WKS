@@ -12,7 +12,7 @@ class Contacts extends Base
    }
 
 function _remap(){
-	if(eregi('captcha',$this->uri->uri_string()))
+	if(strstr($this->uri->uri_string(),'captcha'))
 		$this->captcha();
 	elseif($link = $this->uri->segment(2)){
 		if(method_exists($this, $link)) $this->$link();

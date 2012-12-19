@@ -30,10 +30,15 @@ class House extends Base {
 	function index($link, $show='')
 	{
 	if(!$link){ header("Location: /construction/typical_projects"); return 0;}
-		if('test' == $link){$link=1;}
+		if('test' == $link){
+			$link=11;
+			$this->data['Styles'] .= $this->AddStyle('style_WKS_house | colorbox4 | home | buttons');
+			$this->data['Js'] .= $this->AddJs('function');
+		}else{
 
-		$this->data['Styles'] .= $this->AddStyle('style_WKS_house | colorbox | home');
-		$this->data['Js'] .= $this->AddJs('colorbox');
+			$this->data['Styles'] .= $this->AddStyle('style_WKS_house | colorbox | home | buttons');
+		}
+		$this->data['Js'] .= $this->AddJs('colorbox | buttons');
 
 		$this->load->model('catalog_model');
 		$this->data['House'] = $this->catalog_model->getHouse($link);
