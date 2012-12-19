@@ -19,5 +19,5 @@ RewriteRule ^pdfs/(.*)\.pdf(.*)$  file/trf/nrfl/flim/$1 [L]
 
 RewriteRule ^$ /index.php [L] 
 
-RewriteCond $1 !^(index\.php|images|typicalprojects|download|admin|css|js|WKS_me|robots\.txt|favicon\.ico|trf\.php|img|googlehostedservice\.html) 
+RewriteCond $1 !^(index\.php|images|typicalprojects|download|admin|css|js|WKS_me|robots\.txt|favicon\.ico|trf\.php|img|googlehostedservice\.html|google(.+)\.html)
 RewriteRule ^(.*)$ /index.php/$1 [L] 
