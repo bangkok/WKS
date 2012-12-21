@@ -126,7 +126,7 @@
 
 
 <div style="display: none">
-<div id="calc" class="art" class="hidden">
+<div id="calc" class="art hidden">
 	<div class="calc-block">
 		<div class="header-top" name="header">
 			<table><tr>

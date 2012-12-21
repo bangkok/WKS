@@ -63,9 +63,11 @@ $Js['colorbox']=	'<script type="text/javascript" src="/js/jquery.colorbox.js"></
 <script type="text/javascript">
 	$(document).ready(function(){
 				$(".group1").colorbox({rel:"group1"});
+				$(".calc").colorbox({inline:true});
 			});
 </script>
 ';
+$Js['buttons']= '<script type="text/javascript" src="/js/buttons.js"></script>';
 
 //$Js[]='';
 ?>
@@ -128,6 +130,8 @@ $Style['style_WKS_panels']= '<link rel="stylesheet" href="/css/style_WKS_panels.
 
 $Style['proizvod'] = '<style type="text/css">#content_block{ BACKGROUND-IMAGE: url(/img/wks/ECOSE-Technology-FAQ-relise.jpg);} img.zoomi{width:120px; margin:3px 6px 3px 0px}</style>';
 $Style['button']= '<link rel="stylesheet" href="/css/button.css" type="text/css" media="screen" />';
+
+$Style['buttons']= '<link rel="stylesheet" href="/css/buttons.css" type="text/css" media="screen" />';
 
 $Style['galleriffic-4']= '<link rel="stylesheet" href="/css/galleriffic-4.css" type="text/css" media="screen" />';
 $Style['zoomi'] = '<style type="text/css"> img.zoomi{width:120px; margin:3px 6px 3px 0px}</style>';

@@ -32,7 +32,7 @@ class House extends Base {
 	if(!$link){ header("Location: /construction/typical_projects"); return 0;}
 		if('test' == $link){
 			$link=11;
-			$this->data['Styles'] .= $this->AddStyle('style_WKS_house | colorbox4 | home | buttons');
+			$this->data['Styles'] .= $this->AddStyle('style_WKS_house | colorbox | home | buttons');
 			$this->data['Js'] .= $this->AddJs('function');
 		}else{
 
