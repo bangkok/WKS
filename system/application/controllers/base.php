@@ -28,7 +28,7 @@ class Base extends Base1
 //======================= Карта ============================
 
 
-//======================= Контетн ============================
+//======================= Контент ============================
 //*    
     $this->data['Content'] = $this->config_model->Get_Page($this->uri->segment_array(),$this->router,$this->data['lang']);
     $this->data['Content']['name']=$this->data['Content']['title'];
@@ -63,7 +63,7 @@ if($this->data['Content']['description']=='')
 $this->data['Content']['text']=$this->config_model->getText($this->data['Content']['id']);    
 //   */
 
-//======================= Контетн ============================
+//======================= Контент ============================
 
 //======================= Шапка ============================
 	$panorama = $this->panorama_model->getPanorama($this->data['Content']['id']);
