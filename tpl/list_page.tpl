@@ -19,9 +19,8 @@ $HEAD$
 <div id="leng">$LENG$</div>
 <div id="auth">$AUTH$</div>
 <div id="buttons">$BUTTONS$</div>
-<!--$LOGO$-->
-<a href="/"><div id="logo"><div id="afc"></div></div></a>
 
+$LOGO$
 
 <div id="navigation">
 $MENU$

@@ -125,6 +125,7 @@ $pattern[] = '$CONTACTS BLOCK$';$replacement[] = '';//$contact_block;
 
 $pattern[] = '$LENG$';	$replacement[] = "";
 $pattern[] = '$AUTH$';	$replacement[] = $this->load->view('block/auth.inc.php',$this->data, true);
+$pattern[] = '$LOGO$';	$replacement[] = $this->load->view('block/logo.inc.php',$this->data, true);
 $pattern[] = '$BUTTONS$';	$replacement[] = "";//$this->load->view('block/buttons.inc.php',$this->data, true);;
 
 //$pattern[] = '$TOP LINKS$';	$replacement[] = $top_links;

@@ -4,9 +4,9 @@
 <title>$TITLE$</title>
 <LINK rel=stylesheet type=text/css href="/css/style.css" media=all>
 $STYLES$
-	
+
 $JS$
-	 
+
 $HEAD$
 </head>
 <body>
@@ -16,15 +16,12 @@ $HEAD$
 
 <div id="container">
 
-
 <!--<div id="left_lines_img"></div>-->
 
-
-
-
 <div id="header">
-<!--$LOGO$-->
-<div id="logo"><div id="afc"></div></div>
+
+$LOGO$
+
 <div id="navigation">
 $MENU$
 </div>
