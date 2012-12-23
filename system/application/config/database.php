@@ -37,7 +37,7 @@
 $active_group = "default";
 $active_record = TRUE;
 
-if (str_replace(array('http://', 'www.'), '', $_SERVER['HTTP_HOST']) == 'wks.loc'){
+if (str_replace(array('http://', 'www.'), '', $_SERVER['HTTP_HOST']) == 'wks.ll'){
     $db['default']['hostname'] = "localhost";
     $db['default']['username'] = "root";
     $db['default']['password'] = "vertrigo";

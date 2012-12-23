@@ -53,7 +53,7 @@ class Main extends Base
 		$this->data['Styles'] .= $this->AddStyle('style_WKS_about');
 	}
 
-	if( eregi('/home/career',$this->uri->uri_string()) ){ 
+	if( stristr($this->uri->uri_string(), '/home/career') ){
 		$this->data['Styles'] .= $this->AddStyle('style_WKS_about');
 	}
 

@@ -73,7 +73,7 @@ $i++;
    	  	//var_dump($SubMenu); 
   foreach ($Menu as $item) {
 	if($item['link'] == $this->uri_string ||
-        @eregi($item['link'] , $this->uri_string) &&
+        @stristr($this->uri_string, $item['link']) &&
         $item['link']!='/'
     )
         $footer_link .= '<a href="'.$item['link'].'"><b>'.$item['name'].'</b></a> | ';

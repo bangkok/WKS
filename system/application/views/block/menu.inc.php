@@ -53,7 +53,7 @@ else
 	<?php if(isset($item['child'])):?>
 			<ul style="padding-left: 15px;">
 		<?php foreach ($item['child'] as $subitem):?>
-				<?php if(!eregi($subitem['link'],$this->uri_string)):?>
+				<?php if(!stristr($this->uri_string, $subitem['link'])):?>
 				<li><a  href="<?=$subitem['link']?>"><?=$subitem['name']?></a></li>
 				<?php else:?>
 				<li><a  href="<?=$subitem['link']?>"><b><?=$subitem['name']?></b></a></li>

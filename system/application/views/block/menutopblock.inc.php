@@ -12,7 +12,7 @@ foreach ($Menu as $iMenu)
 {if (count($iMenu['child']) < 1) continue;
 $i++;
 $menu .="\n".'<ul class="art2-menu" id="sub'.$i.'"'; 
-if(!(eregi($iMenu['link'] , $this->uri_string) && $iMenu['link'] !='/')) $menu .=' style="display: none;"';
+if(!(stristr($this->uri_string, $iMenu['link']) && $iMenu['link'] !='/')) $menu .=' style="display: none;"';
 $menu .='>';
 $j=0;
 	foreach ($iMenu['child'] as $item) {$j++;

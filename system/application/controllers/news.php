@@ -15,10 +15,10 @@ function _remap()
      $link=''; $fl=true;
      for($i=1;$fl&&$this->uri->segment($i);$i++){
         $link.="/".$this->uri->segment($i);
-        if(eregi('page',$this->uri->segment($i+1))||
-           eregi('show',$this->uri->segment($i+1)))    $fl=false;
+        if(stristr($this->uri->segment($i+1),'page')||
+			stristr($this->uri->segment($i+1), 'show'))    $fl=false;
         }
-      if(eregi('show',$this->uri->uri_string()))
+      if(stristr($this->uri->uri_string(), 'show'))
            $this->show ($link,$this->uri->segment($i-1),$this->uri->segment($i+1));
       else $this->index($link,$this->uri->segment($i-1),$i+1);
 
@@ -61,9 +61,9 @@ function show($link,$table,$id)
         $this->data['link']=$link;    
 //------------ N id и линк на страннице -------------
 //------------ Подключаются языковые тексты ---------
-            if(eregi('publication',$this->uri->uri_string()))
+            if(stristr($this->uri->uri_string(), 'publication'))
              $this->lang->load('publications'); 
-       else if(eregi('press/',$this->uri->uri_string()))
+       else if(stristr($this->uri->uri_string(), 'press/'))
              $this->lang->load('press'); 
        else  $this->lang->load('news'); 
 //------------ Подключаются языковые тексты ---------

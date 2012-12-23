@@ -12,7 +12,7 @@
       $query=$this->db->get('products');
    	  if($query->num_rows()>1):
    	    foreach ($Menu as &$m):
-   	         if(eregi('product',$m['link'])):
+   	         if(stristr($m['link'], 'product')):
    	         	  foreach ($query->result() as $q):
    	         	    //print_r($m); 
    	         	    $m1=array();
