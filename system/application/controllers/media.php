@@ -42,7 +42,7 @@ class Media extends Base {
 	function gallery($link)
 	{ 
 		$this->data['Styles'] .= $this->AddStyle('pirobox');
-		$this->data['Js'] = $this->AddJs('jquery-pirobox | piroBox_packed | menunav- | gallery');
+		$this->data['Js'] = $this->AddJs('jquery-pirobox | piroBox_packed | menunav- | gallery | gaq');
      		$this->load->view('pageconstructor', $this->data);
 	}
 

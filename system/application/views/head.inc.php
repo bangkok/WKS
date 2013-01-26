@@ -68,6 +68,7 @@ $Js['colorbox']=	'<script type="text/javascript" src="/js/jquery.colorbox.js"></
 </script>
 ';
 $Js['buttons']= '<script type="text/javascript" src="/js/buttons.js"></script>';
+$Js['gaq']= '<script type="text/javascript" src="/js/gaq.js"></script>';
 
 //$Js[]='';
 ?>
