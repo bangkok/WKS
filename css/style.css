@@ -290,7 +290,7 @@ MARGIN:0px;
 	margin:0px; 
 	margin-left:280px;
 	PADDING: 0 50px 0 0;
-	/*overflow:hidden*/
+	overflow: hidden;
 }
 #right_bot_lines{
 	BACKGROUND-IMAGE: url(/img/wks/right-bott-75.jpg);
