@@ -3,6 +3,9 @@
 <head>
 <title>$TITLE$</title>
 <LINK rel=stylesheet type=text/css href="/css/style.css" media=all>
+
+$META$
+
 $STYLES$
 
 $JS$

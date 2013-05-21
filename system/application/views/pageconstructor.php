@@ -142,6 +142,7 @@ $pattern[] = '$FOOTER$';		$replacement[] = $footer_text;
 $pattern[] = '$CONTENT COPY$';	$replacement[] = $Content['copy'];
 $pattern[] = '$STYLES$';		$replacement[] = $this->data['Styles'];//$styles_text;
 $pattern[] = '$JS$';			$replacement[] = $this->data['Js'];//$js_text;
+$pattern[] = '$META$';			$replacement[] = $this->load->view('meta.inc.php', $Content, true);
 //*/
 
 $page	=	GetFile($path_template_file);	

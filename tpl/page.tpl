@@ -3,6 +3,8 @@
 <head>
 <title>$TITLE$</title>
 
+$META$
+
 $STYLES$
 	
 $JS$
