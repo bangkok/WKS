@@ -86,24 +86,59 @@ var Blocks = {
 			controller.scrollFn(e.originalEvent.wheelDeltaY) && e.preventDefault();
 		});
 
+		/* touch */
+		var initialY  = null;
+
+		this.content.on('touchstart', function(event) {
+			var touch = event.originalEvent.targetTouches[0];
+			initialY = touch.pageY;
+		});
+		this.content.on('touchend touchcancel', function(event) {
+			initialY = null;
+		});
+		this.content.on('touchmove', function(event) {
+			if (initialY == null) return false;
+			var touch = event.originalEvent.targetTouches[0],
+				direction = touch.pageY - initialY;
+			controller.scrollFn(direction) && event.preventDefault();
+		});
+
+		this.scroll.on('touchmove', function(event) {
+
+			var touch = event.originalEvent.targetTouches[0],
+				scroll_height = controller.scroll.height(),
+				text_height = controller.text.height()- controller.content.height(),
+				direction = touch.pageY - this.offsetTop,
+				value = direction / scroll_height * text_height;
+
+			if (direction < 0 || direction > scroll_height) return false;
+
+			controller.doScroll(-value);
+			controller.scrollFn(0);
+			event.preventDefault();
+
+		});
+
 		this.initSlider();
 	},
 
 	initSlider: function ()
 	{
-		var controller = this;
 
 		this.slider.slider({
 			orientation: "vertical",
 			min: 0,
 			max: 100,
 			value: 100,
-			slide: function( event, ui ) {
-				var scroll_percent = (ui.value - 100) / 100 * (controller.text.height() - controller.options.height_content);
-				controller.text.css({'marginTop': Math.round(scroll_percent)});
-				controller.scrollFn(0);
-			}
+			slide: function( event, ui ) {onSliderMove(ui.value);}
 		});
+
+		var onSliderMove = function(value)
+		{
+			var scroll_percent = (value - 100) / 100 * (this.text.height() - this.options.height_content);
+			this.text.css({'marginTop': Math.round(scroll_percent)});
+			this.scrollFn(0);
+		}.bind(this);
 	},
 
 	scrollFn: function (step)
