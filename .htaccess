@@ -3,14 +3,13 @@ php_value error_reporting 7
 php_value register_globals on
 
 Options +FollowSymLinks
-RewriteEngine on 
+RewriteEngine on
 
-Redirect 302 /email http://178.86.5.184/roundcube 
-Redirect 302 /email2 http://mail.google.com/a/wks.com.ua
-RewriteCond %{HTTP_HOST} ^(.*)mail(.*)
-RewriteRule ^(.*)$ email/  [L]
+RewriteCond %{HTTP_HOST} ^mail.wks.com.ua [NC]
+RewriteRule ^(.*)$ http://mail.google.com/a/wks.com.ua [R=302,L]
 
-#RewriteRule ^(.*) http://178.86.5.184/roundcube/ [L]
+RewriteCond %{HTTP_HOST} ^email.wks.com.ua [NC]
+RewriteRule ^(.*)$ http://178.86.5.184/roundcube/ [R=302,L]
 
 RewriteRule ^images/(.*)\.jpg(.*)$  file/trf/nrfl/flim/$1 [L]
 RewriteRule ^images/(.*)\.png(.*)$  file/trf/nrfl/flim/$1 [L]
@@ -19,5 +18,5 @@ RewriteRule ^pdfs/(.*)\.pdf(.*)$  file/trf/nrfl/flim/$1 [L]
 
 RewriteRule ^$ /index.php [L] 
 
-RewriteCond $1 !^(index\.php|images|typicalprojects|download|admin|css|js|WKS_me|robots\.txt|favicon\.ico|trf\.php|img|googlehostedservice\.html|google(.+)\.html)
+RewriteCond $1 !^(index\.php|images|typicalprojects|download|admin|css|js|WKS_me|robots\.txt|favicon\.ico|trf\.php|img|googlehostedservice\.html|google(.+)\.html|yandex(.+)\.html)
 RewriteRule ^(.*)$ /index.php/$1 [L] 
