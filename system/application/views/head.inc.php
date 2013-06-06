@@ -5,9 +5,10 @@ $Js['jquery-1.4.2']='<script type="text/javascript" src="/js/jquery-1.4.2.min.js
 $Js['jquery-1.6.1']='<script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script>';
 $Js['jquery-1.7.1']='<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>';
 $Js['jquery-1.8.3']='<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>';
-$Js['jquery'] = $Js['jquery-1.7.1'];
+$Js['jquery-1.10.0']='<script type="text/javascript" src="/js/jquery-1.10.0.min.js"></script>';
+$Js['jquery'] = $Js['jquery-1.10.0'];
 
-$Js['UI']='<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js" type="text/javascript"></script>';
+$Js['UI']='<script src="/js/jquery-ui.min.js" type="text/javascript"></script>';
 $Js['blocks']='<script type="text/javascript" src="/js/blocks.js"></script>';
 
 
